@@ -3,7 +3,6 @@ https://stackoverflow.com/questions/69619829/could-not-resolve-all-files-for-con
 THEN ADD THIS TO YOUR android/app/build.gradle
 android{
 ndkVersion = "25.1.8937393"
-.....
 }
 
 
