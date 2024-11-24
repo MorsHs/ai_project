@@ -1,5 +1,4 @@
 import 'package:camera/camera.dart';
-import 'package:flutter/widgets.dart';
 
 class CameraControllerSetup {
   late CameraDescription _cameraDescription;

@@ -1,7 +1,6 @@
 import 'package:ai_project/camera_widget.dart';
 import 'package:flutter/material.dart';
 import 'package:camera/camera.dart';
-import 'package:tflite_flutter/tflite_flutter.dart';
 
 void main() {
   runApp(const MyApp());
@@ -32,12 +31,12 @@ class _MyAppState extends State<MyApp> {
           future: _controller,
           builder:(context, snapshot) {
             if(snapshot.connectionState == ConnectionState.waiting) {
-              return CircularProgressIndicator();
+              return const CircularProgressIndicator();
             } else if(snapshot.hasData) {
               return CameraPreview(snapshot.data!);
             }
             else{
-              return Center(child: Text("FUCKING DIES"),);
+              return const Center(child: Text("FUCKING DIES"),);
             }
           },
         ),
