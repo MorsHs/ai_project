@@ -1,16 +1,11 @@
-# ai_project
+FOR PPL WHO USE ANDROID STUDIO LADYBUG REFER TO THIS THREAD FOR FIX:
+https://stackoverflow.com/questions/69619829/could-not-resolve-all-files-for-configuration-appandroidjdkimage
+THEN ADD THIS TO YOUR android/app/build.gradle
+android{
+ndkVersion = "25.1.8937393"
+}
 
-A new Flutter project.
 
-## Getting Started
 
-This project is a starting point for a Flutter application.
 
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+THE STABLE VERSION FOR ME TO MAKE THIS WORK IS ON ANDROID STUDIO IGUANA
